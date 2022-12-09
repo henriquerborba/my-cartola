@@ -2,7 +2,7 @@ package entity
 
 import "errors"
 
-type ActionTableInteface interface {
+type ActionTableInterface interface {
 	Init()
 	GetScore(action string) (int, error)
 }
